@@ -3,11 +3,11 @@
 
     let accessToken, csrfToken, jobUrl, validateJobURL, runJobURL;
 //Attention!!!! modify this information, with URLs of your SAC tenant
-    const csrfTokenUrl = 'https://planifyit.eu10.hcs.cloud.sap/api/v1/csrf';
-    const clientId = 'sb-d36bd0cc-eaaf-4fa8-8897-5b069998a8d9!b13';
-    const clientSecret = '7f7889df-1504-49f2-9e38-e2de480d85a2$NDPTA7KjiS3YdGl0wDjw';
-    const tokenUrl = 'https://planifyit.authentication.eu10.hana.ondemand.com/oauth/token';
-    const apiEndpoint = 'https://planifyit.eu10.hcs.cloud.sap/api/v1/dataimport/models/Cdlg2a1kkbj139ea3kjvk86s05k/masterFactData';
+    const csrfTokenUrl = 'https://esteve-1.eu20.hcs.cloud.sap/api/v1/csrf';
+    const clientId = 'sb-4ca01e67-d5e3-485c-8d38-0fe2d1c59d0d!b21545|client!b3944';
+    const clientSecret = 'b0d51053-8e19-45aa-b209-2d2a7a601ebb$K06T6UhFEkPGqhb-M-Wm_Dc4Hg2Wk0JAByw6kaVTdXo=';
+    const tokenUrl = 'https://esteve-1.authentication.eu20.hana.ondemand.com/oauth/token';
+    const apiEndpoint = 'https://esteve-1.eu20.hcs.cloud.sap/api/v1/dataimport/import/Ct3c24j3e93jsvje4gm3utq1';
 
  const jobSettings = {
         "Mapping": {  
@@ -24,7 +24,6 @@
             "importMethod": "Update"
         }
     };
-
 
     function getAccessToken(messagesElement) {
         return fetch(tokenUrl, {
@@ -93,7 +92,7 @@
         })
         .then(response =>  { 
             console.log(response);  // Log the raw response object.
-        return response.json(); }  )
+        return response.json(); } )
         .then(data => {
             jobUrl = data.jobURL;
             console.log('Job URL:', jobUrl);
@@ -232,8 +231,5 @@ window.uploadData = uploadData;
     .catch(error => console.error('Error:', error));
     }
   window.runJob = runJob;
-    
-
-
 
 })();
