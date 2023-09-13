@@ -7,7 +7,7 @@
     const clientId = 'sb-4ca01e67-d5e3-485c-8d38-0fe2d1c59d0d!b21545|client!b3944';
     const clientSecret = 'b0d51053-8e19-45aa-b209-2d2a7a601ebb$K06T6UhFEkPGqhb-M-Wm_Dc4Hg2Wk0JAByw6kaVTdXo=';
     const tokenUrl = 'https://esteve-1.authentication.eu20.hana.ondemand.com/oauth/token';
-    const apiEndpoint = 'https://esteve-1.eu20.hcs.cloud.sap/api/v1/dataimport/import/Ct3c24j3e93jsvje4gm3utq1';
+    const apiEndpoint = 'https://esteve-1.eu20.hcs.cloud.sap/api/v1/dataimport/import/Ck68rg04j3g3utmj1obuoes126b';
 
  const jobSettings = {
         "Mapping": {  
