@@ -1,0 +1,13 @@
+{
+ "id": "com.sap.sample.coloredbox",
+ "version": "1.0.0",
+ "name": "Colored Box",
+ "description": "A colored box",
+ "newInstancePrefix": "ColoredBox",
+ "icon": "https://www.sample.com/customwidgets/coloredbox/icon.png",
+ "vendor": "SAP",
+ "eula": "",
+ "license": "",
+ "webcomponents": [
+ {
+ "kind": "main",
