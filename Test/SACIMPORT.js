@@ -13,12 +13,8 @@
         "Mapping": {  
      "Version___ID": "Version",
      "Date___CALMONTH": "Date",
-     "id___ID": "id",
-          "label___ID": "label",
-            "startDate___ID": "startDate",
-           "endDate___ID": "endDate",
-            "open___ID": "open",
-            "progress": "progress"
+     "DIM___ID": "id",
+     "DIM2___ID": "id2",
         },
         "JobSettings": {
             "importMethod": "Update"
